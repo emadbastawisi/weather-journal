@@ -20,9 +20,9 @@
 
     <div class="px-3">
       <div class="holder zip mb-3">
-        <label for="zip" class="form-label">Enter City Name or Zipcode</label>
-        <input type="text" class="form-control" id="zip"
-          oninput="this.value.trim()!='' && document.querySelector('#generate').removeAttribute('disabled')">
+        <label for="zip" class="form-label">City Name or US Zip Code</label>
+        <input type="text" class="form-control" id="zip" placeholder="Enter city name or zip code here"
+          oninput="this.value.trim()!='' && document.querySelector('#generate').removeAttribute('disabled')" />
       </div>
       <div class="holder feel mb-3">
         <label for="feelings" class="form-label">How are you feeling today?</label>
